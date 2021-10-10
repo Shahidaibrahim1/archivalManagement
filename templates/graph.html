@@ -97,13 +97,12 @@ new Chart("myChart", {
        <td>{{time.wednesday}}</td>
       <td>{{time.thursday}}</td>
       <td>{{time.friday}}</td>
-
-
     </tr>
     {%endfor%}
   </tbody>
 </table>
   </div></div>
+    <a href="/time"><button>View Timetable</button></a>
 <br><br>
 
 <div class="container">
@@ -127,6 +126,7 @@ new Chart("myChart", {
       <td>{{note.content}}</td>
       <td><a href="/update/{{note.id}}">update</a>, <a href="/delete/{{note.id}}">delete</a></td>
       <td><a href="/form/{{note.id}}"><button>view</button></a></td>
+
 
     </tr>
     {%endfor%}
